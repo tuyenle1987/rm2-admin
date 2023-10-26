@@ -1,0 +1,13 @@
+.title {
+  color: #3e4eb0;
+  font-weight: 900;
+}
+
+.label {
+  font-weight: 900;
+  margin: 5px 0;
+}
+
+body {
+  min-width: 0px !important; 
+}

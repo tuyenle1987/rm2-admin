@@ -1,0 +1,29 @@
+@import-normalize;
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fafafa;
+  min-width: 600px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pagination {
+  margin: 15px 0;
+}
+
+.pagination .page-link {
+  color: #000;
+}
+
+.pagination .active > .page-link {
+  color: #fff;
+  background: #000;
+  border: none;
+}
